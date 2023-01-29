@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import MovieCard from "./components/MovieCard";
+import MovieCard from "./components/Moviecard";
 import SearchIcon from "../public/search-line-icon.svg";
 import "./App.css";
 const API_KEY = import.meta.env.VITE_API_KEY;
