@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import MovieCard from "./components/Moviecard";
-import SearchIcon from "../public/search-line-icon.svg";
+import SearchIcon from "/search-line-icon.svg";
 import "./App.css";
 const API_KEY = import.meta.env.VITE_API_KEY;
 
@@ -45,7 +45,7 @@ const App = () => {
         </div>
       ) : (
         <div className="empty">
-          <h2>Please Enter a Movie name</h2>
+          <h2>No Movies Found</h2>
         </div>
       )}
     </div>
